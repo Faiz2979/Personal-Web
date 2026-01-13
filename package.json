@@ -14,7 +14,7 @@
     "aos": "^3.0.0-beta.6",
     "clsx": "^2.1.1",
     "lucide-react": "^0.510.0",
-    "next": "14.2.13",
+    "next": "14.2.35",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.3.0",
