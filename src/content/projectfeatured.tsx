@@ -8,18 +8,18 @@ const projectsFeatured = [
         href: "#",
         stack: [
             <RiNextjsFill key="nextjs" />,
-            <SiTailwindcss/>,
+            <SiTailwindcss />,
             <SiTypescript key="typescript" />,
         ],
     },
     {
         name: "Movie App",
         image: "movie-app.png", // Sesuaikan dengan nama file
-        href: "https://movie.faizannabil.me",
+        href: "https://movie.faizannabil.xyz",
         stack: [
             <RiNextjsFill key="nextjs" />,
             <SiTypescript key="typescript" />,
-            <SiTailwindcss/>,
+            <SiTailwindcss />,
             <SiThemoviedatabase key="tmdb" />,
         ],
     },
@@ -30,7 +30,7 @@ const projectsFeatured = [
         href: "https://staging-cat-management-system.vercel.app/",
         stack: [
             <RiNextjsFill key="nextjs" />,
-            <SiTailwindcss/>,
+            <SiTailwindcss />,
             <SiTypescript key="typescript" />,
             <SiCloudinary key="cloudinary" />,
             <SiPrisma key="prisma" />
@@ -39,3 +39,4 @@ const projectsFeatured = [
 ];
 
 export { projectsFeatured };
+

@@ -1,4 +1,4 @@
-import Navbar from "@/component/Navbar";
+import Navbar from "@/_components/Navbar";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import './custom.css';
@@ -17,11 +17,6 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Muhammad Faiz Annabil",
   description: "Welcome to my personal website, where I share my experiences.",
-  // icons: {
-  //   icon: "/assets/icon.png", // Path ke favicon di folder public
-  //   shortcut: "/assets/icon.png", // Shortcut icon
-  //   apple: "/assets/icon.png", // Untuk perangkat Apple
-  // }
 };
 
 export default function RootLayout({
@@ -36,7 +31,7 @@ export default function RootLayout({
       >
         <Navbar></Navbar>
         {children}
-        
+
       </body>
     </html>
   );

@@ -1,23 +1,19 @@
-import About from '@/component/Section/About';
-import Certificate from '@/component/Section/Certificate';
-import Footer from '@/component/Section/Footer';
-import Hero from '@/component/Section/Hero';
-import Project from '@/component/Section/Project';
-import Skills from '@/component/Section/Skill';
-import TypewriterProvider from "@/component/parts/Typewriter";
+import About from '@/_components/section/About';
+import Certificate from '@/_components/section/Certificate';
+import Footer from '@/_components/section/Footer';
+import Hero from '@/_components/section/Hero';
+import Project from '@/_components/section/Project';
+import Skills from '@/_components/section/Skill';
 
 export default function Home() {
   return (
     <div className="">
-      <TypewriterProvider>
-
-        <Hero></Hero>
-        <About></About>
-        <Project></Project>
-        <Skills></Skills>
-        <Certificate></Certificate>
-        <Footer></Footer>
-      </TypewriterProvider>
-      </div>
+      <Hero></Hero>
+      <About></About>
+      <Project></Project>
+      <Skills></Skills>
+      <Certificate></Certificate>
+      <Footer></Footer>
+    </div>
   );
 }
