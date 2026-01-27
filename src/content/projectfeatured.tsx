@@ -1,5 +1,5 @@
 import { RiNextjsFill } from "react-icons/ri";
-import { SiCloudinary, SiPrisma, SiTailwindcss, SiThemoviedatabase, SiTypescript } from "react-icons/si";
+import { SiCloudinary, SiPrisma, SiTailwindcss, SiTypescript } from "react-icons/si";
 
 const projectsFeatured = [
     {
@@ -8,29 +8,17 @@ const projectsFeatured = [
         href: "#",
         stack: [
             <RiNextjsFill key="nextjs" />,
-            <SiTailwindcss />,
+            <SiTailwindcss key="tailwindcss" />,
             <SiTypescript key="typescript" />,
         ],
     },
-    {
-        name: "Movie App",
-        image: "movie-app.png", // Sesuaikan dengan nama file
-        href: "https://movie.faizannabil.xyz",
-        stack: [
-            <RiNextjsFill key="nextjs" />,
-            <SiTypescript key="typescript" />,
-            <SiTailwindcss />,
-            <SiThemoviedatabase key="tmdb" />,
-        ],
-    },
-
     {
         name: "Cat Management System",
         image: "cat-management-system.png", // Sesuaikan dengan nama file
         href: "https://staging-cat-management-system.vercel.app/",
         stack: [
             <RiNextjsFill key="nextjs" />,
-            <SiTailwindcss />,
+            <SiTailwindcss key="tailwindcss" />,
             <SiTypescript key="typescript" />,
             <SiCloudinary key="cloudinary" />,
             <SiPrisma key="prisma" />
