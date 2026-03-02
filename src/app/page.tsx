@@ -5,9 +5,10 @@ import Hero from '@/_components/section/Hero';
 import Project from '@/_components/section/Project';
 import Skills from '@/_components/section/Skill';
 
+
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <Hero></Hero>
       <About></About>
       <Project></Project>
