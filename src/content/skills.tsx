@@ -1,18 +1,18 @@
 import { RiNextjsFill } from "react-icons/ri";
-import { SiExpress, SiFirebase, SiMysql, SiNestjs, SiPrisma, SiReact, SiSequelize, SiTypescript, SiUnity } from "react-icons/si";
+import { SiExpress, SiFirebase, SiMysql, SiNestjs, SiPrisma, SiReact, SiReactquery, SiTypescript, SiUnity } from "react-icons/si";
 
 const mySkills = [
-    <SiUnity key="unity" />,
-    <RiNextjsFill key="nextjs" />,
-    // <SiNodemon key="nodemon" />,
+    <SiReactquery key="reactquery" />,
     <SiReact key="react" />,
+    <RiNextjsFill key="nextjs" />,
     <SiTypescript key="typescript" />,
-    <SiMysql key="mysql" />,
     <SiExpress key="express" />,
     <SiPrisma key="prisma" />,
-    <SiSequelize key="sequelize" />,
     <SiNestjs key="nestjs" />,
-    <SiFirebase key="firebase" />
+    <SiMysql key="mysql" />,
+    <SiFirebase key="firebase" />,
+    <SiUnity key="unity" />,    
 ];
 
 export { mySkills };
+

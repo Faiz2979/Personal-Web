@@ -109,7 +109,7 @@ export default function Typewriter({
       {/* Dropdown */}
       {hoverable && (
         <div
-          className={`absolute left-0 top-full mt-3 w-max bg-black border border-[#c51f1f] rounded-md shadow-lg overflow-hidden transition-all duration-300 ${
+          className={`absolute left-0 top-full mt-3 w-max bg-black border border-red rounded-md shadow-lg overflow-hidden transition-all duration-300 ${
             hovered
               ? "opacity-100 translate-y-0"
               : "opacity-0 translate-y-2 pointer-events-none"
@@ -119,7 +119,7 @@ export default function Typewriter({
             <div
               key={index}
               onClick={() => handleSelectWord(index)}
-              className="px-4 py-2 text-white hover:bg-[#c51f1f] transition-colors duration-200 cursor-pointer whitespace-nowrap"
+              className="px-4 py-2 text-white hover:bg-primary transition-colors duration-200 cursor-pointer whitespace-nowrap"
             >
               {word}
             </div>

@@ -4,7 +4,7 @@ import Typewriter from "../gsap/typewritter";
 
 export default function About() {
   return (
-    <Section id="about" className=" bg-[#c51f1f] flex py-[120px]" >
+    <Section id="about" className=" bg-primary flex py-[120px]" >
       <div className="flex md:items-center items-start justify-center gap-10 md:gap-0 md:justify-between flex-col md:flex-row">
         <div className="w-[70%]">
           <h1 className="text-secondary oxanium-bold text-3xl md:text-6xl w-full">
