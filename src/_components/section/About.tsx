@@ -6,13 +6,9 @@ import Typewriter from "typewriter-effect";
 import Section from "../../global/Wrapper";
 
 export default function About() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   return (
     <Section id="about" className=" bg-[#c51f1f] flex py-[120px]" >
-      <div className="flex md:items-center items-start justify-center gap-10 md:gap-0 md:justify-between flex-col md:flex-row" data-aos="fade-right">
+      <div className="flex md:items-center items-start justify-center gap-10 md:gap-0 md:justify-between flex-col md:flex-row">
         <div className="w-[70%]">
           <h1 className="text-secondary oxanium-bold text-3xl md:text-6xl w-full">
             A Passionate

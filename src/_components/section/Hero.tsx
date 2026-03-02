@@ -12,8 +12,8 @@ export default function Hero() {
     >
       <div className="flex flex-col md:flex-row items-center md:gap-48 sm:gap-32 gap-8">
 
-        <div className="text-white z-30 oxanium text-left" data-aos="fade-left" data-aos-delay="100">
-          <div className="flex justify-center mb-6" data-aos="flip-up" data-aos-delay="150">
+        <div className="text-white z-30 oxanium text-left">
+          <div className="flex justify-center mb-6">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-[#e83838] to-[#c51f1f] blur-md opacity-70 animate-pulse"></div>
               <Image

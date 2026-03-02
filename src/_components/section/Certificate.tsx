@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { myCerts } from "../../content/certificate";
 import Section from "../../global/Wrapper";
-import CertCard from "../parts/Card";
+import CertCard from "../parts/cards/certification-card";
 const certs = myCerts;
 
 export default function Certificates() {
@@ -14,7 +14,7 @@ export default function Certificates() {
 
     return (
         <Section id="Certificates" className="flex justify-center flex-col items-center gap-10 overflow-hidden bg-[#c51f1f]">
-            <h1 className="text-center text-primary font-semibold text-2xl md:text-4xl">
+            <h1 className="text-center text-white font-semibold text-2xl md:text-4xl">
                 Certificates
             </h1>
             <div className="flex flex-wrap items-center justify-center gap-4">
@@ -23,7 +23,7 @@ export default function Certificates() {
                 </button>
                 <button
                     onClick={() => setIndex(1)}
-                    className={`border border-primary px-4 oxanium-bold py-2 rounded-xl ${index === 1
+                    className={`border border-white px-4 oxanium-bold py-2 rounded-xl ${index === 1
                             ? "bg-white text-[#c51f1f]"
                             : "bg-transparent  text-white]"
                         } hover:bg-[#c51f1f] hover:text-white transition-all duration-300`}
