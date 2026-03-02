@@ -32,7 +32,7 @@ export default function Hero() {
           <h3 className="text-3xl sm:text-3xl md:text-7xl oxanium-bold">
             A{" "}
             <span className="text-[#e83838] inline-block w-[700px]">
-              <Typewriter options={{ strings: ["Software Engineer", "Backend Developer", "Game Developer"], autoStart: true, loop: false, wrapperClassName: "inline-block" }} />
+              <Typewriter words={["Software Engineer", "Backend Developer", "Game Developer"]} />
             </span>
           </h3>
         </div>
