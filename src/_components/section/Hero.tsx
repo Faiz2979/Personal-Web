@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image"
-import Typewriter from "typewriter-effect"
 import Section from "../../global/Wrapper"
+import Typewriter from "../gsap/typewritter"
 
 export default function Hero() {
 

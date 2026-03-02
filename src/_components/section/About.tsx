@@ -1,9 +1,6 @@
 "use client";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from "react";
-import Typewriter from "typewriter-effect";
 import Section from "../../global/Wrapper";
+import Typewriter from "../gsap/typewritter";
 
 export default function About() {
   return (
@@ -14,14 +11,7 @@ export default function About() {
             A Passionate
             <br />
             <span className="oxanium oxanium-bold whitespace-nowrap" >
-              <Typewriter
-                options={{
-                  strings: ["Software Engineer", "Backend Developer", "Game Developer"],
-                  autoStart: true,
-                  loop: false,
-                  wrapperClassName: "inline-block",
-                }}
-              />
+              <Typewriter loop={false} hoverable words={["Software Engineer", "Backend Developer", "Game Developer"]} />
             </span>
           </h1>
         </div>
